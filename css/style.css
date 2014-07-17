@@ -1,0 +1,35 @@
+#todo-creator {
+  padding-top: 50px; }
+
+form input[type=text] {
+  height: 50px;
+  margin: 0 auto; }
+form div {
+  width: 50%;
+  margin: 0 auto; }
+
+ul {
+  width: 50%;
+  margin: 0 auto; }
+
+li.list-group-item {
+  border: 0;
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 0; }
+li input[type=checkbox] {
+  margin: 10px;
+  vertical-align: middle;
+  height: 15px;
+  width: 15px; }
+li label {
+  font-weight: normal;
+  font-size: 24px; }
+li.completed label {
+  color: red;
+  text-decoration: line-through; }
+
+#amount {
+  font-size: 12px;
+  text-align: right;
+  width: 50%;
+  margin: 0 auto; }

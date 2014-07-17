@@ -1,0 +1,41 @@
+$gap: 10px
+$gap-s: 5px
+$gap-l: 50px
+$percentage-h:50%
+$margin-center: 0 auto
+#todo-creator
+  padding-top: $gap-l
+form
+  input[type=text]
+    height: 50px
+    margin: $margin-center
+  div
+    width: $percentage-h
+    margin: $margin-center
+ul
+  width: $percentage-h
+  margin: $margin-center
+
+li
+  &.list-group-item
+    border: 0
+    border-bottom: 2px solid #ddd
+    margin-bottom: 0
+  input[type=checkbox]
+    margin: 10px
+    vertical-align: middle
+    height: 15px
+    width: 15px
+
+  label
+    font-weight: normal
+    font-size: 24px
+  &.completed
+    label
+      color: red
+      text-decoration: line-through   //有删除线
+#amount
+  font-size: 12px
+  text-align: right
+  width: $percentage-h
+  margin: $margin-center
